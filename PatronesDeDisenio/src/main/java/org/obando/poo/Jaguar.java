@@ -1,8 +1,9 @@
 package org.obando.poo;
 
 import org.obando.poo.interfaces.Felino;
+import org.obando.poo.interfaces.FelinoSalvaje;
 
-public class Jaguar extends Animal implements Felino {
+public class Jaguar extends Animal implements FelinoSalvaje {
 
     private int edad;
     private float peso;
@@ -41,10 +42,6 @@ public class Jaguar extends Animal implements Felino {
         System.out.println("El jaguar ruge");
     }
 
-    @Override
-    public void maullar() {
-        throw new UnsupportedOperationException("El Jaguar no maulla!");
-    }
 
     @Override
     public void cazar() {

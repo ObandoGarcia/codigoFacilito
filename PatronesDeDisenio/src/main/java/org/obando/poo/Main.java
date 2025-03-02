@@ -10,5 +10,6 @@ public class Main {
         yagua.setPeso(120f);
 
         System.out.println(yagua);
+        yagua.cazar();
     }
 }
